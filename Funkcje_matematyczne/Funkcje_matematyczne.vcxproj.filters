@@ -27,6 +27,9 @@
     <ClCompile Include="silnia.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="rowanie_kwadratowe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Czy_liczba_pierwsza.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Silnia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rownanie_kwadratowe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
