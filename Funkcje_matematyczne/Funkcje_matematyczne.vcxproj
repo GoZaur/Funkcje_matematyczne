@@ -118,11 +118,13 @@
     <ClCompile Include="Czy_liczba_pierwsza.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NWD.cpp" />
+    <ClCompile Include="rowanie_kwadratowe.cpp" />
     <ClCompile Include="silnia.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Czy_liczba_pierwsza.h" />
     <ClInclude Include="NWD.h" />
+    <ClInclude Include="Rownanie_kwadratowe.h" />
     <ClInclude Include="Silnia.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
