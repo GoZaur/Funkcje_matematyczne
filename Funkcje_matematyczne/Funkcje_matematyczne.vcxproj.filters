@@ -30,6 +30,15 @@
     <ClCompile Include="rowanie_kwadratowe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="czy_mozna_zbudowac_trojkat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="licz_pole_kola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="licz_obwod_kola.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Czy_liczba_pierwsza.h">
@@ -42,6 +51,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Rownanie_kwadratowe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Czy_mozna_zbudowac_trojkat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="licz_pole_kola.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="licz_obwod_kola.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

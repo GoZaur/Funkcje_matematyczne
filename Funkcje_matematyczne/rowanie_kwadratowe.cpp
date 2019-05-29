@@ -3,8 +3,8 @@
 
 using namespace std;
 
-int miejsca_zerowe(int a, int b, int c) {
-	int delta;
+float miejsca_zerowe(float a, float b, float c) /*{ return 0; }*/{ //musialm zmienic na float. Potrzebowalam zmiennych tego samego typu co zmienna x0 linijka 12
+	float delta;
 	delta = (b*b) - (4 * a*c);
 
 	if (delta = 0) {
@@ -27,4 +27,5 @@ int miejsca_zerowe(int a, int b, int c) {
 	else if(delta<0) {
 		cout << "Brak miejsc zerowych.";
 	}
+	return 0;
 }
