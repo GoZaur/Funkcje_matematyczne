@@ -1,7 +1,7 @@
 #include<iostream>
 
-
 using namespace std;
+
 int czy_mozna_zbudowac_trojkat(int a, int b, int c) {
 	bool t = 0;
 	bool f = 1;

@@ -1,47 +1,40 @@
 #include<iostream>
-
 #include "Czy_liczba_pierwsza.h"
-/*#include<locale.h>
+#include<locale.h>
 #include<cstdlib>
 #include"Silnia.h"
 #include"NWD.h"
 #include"Rownanie_kwadratowe.h"
 #include<math.h>
 #include"Czy_mozna_zbudowac_trojkat.h"
-#include "licz_pole_kola.h"
-*/
 #include"licz_pole_kola.h"
 #include"licz_obwod_kola.h"
-using namespace std;
+//#include<locale>
 
-int liczba;
-int a, b, c;
+using namespace std;
 
 int main() {
 	setlocale(LC_CTYPE, "polish");
-	/*
-	cout << "Witaj! Podaj liczbê, któr¹ chcesz sprawdziæ czy jest pierwsza: " << liczba << endl;
-	//bool
-	int pierwsza = czy_liczba_pierwsza(7);
-	//cout<<"Podana liczba to: "<<
 
-	nwd(12, 15);
-	cout << "Najwiêkszy wspólny dzielnik dla podanych liczb, to: " << endl;//tutaj muszê wczytaæ 
-
-	silnia(3);
-	cout << "Silnia podanej liczby wynosi: " << endl;//wczytaæ
-
-	//miejsca_zerowe(a, b, c);
-
-	int trojkat = czy_mozna_zbudowac_trojkat(5, 3, 7);
-		cout << "Trójk¹t o podanych wymiarach: " << trojkat << endl;
-	*/
-	float wynik = licz_pole(4.0);
-	//float wynik2 = licz_obwod(5.0);
 	bool wynik3 = czy_liczba_pierwsza(2);
+	cout << std::boolalpha << "Podana liczba jest liczb¹ pierwsz¹: " << wynik3 << endl;
+	
+	int wynik_NWD=nwd(12, 15);
+	cout << endl<<"Najwiêkszy wspólny dzielnik dla podanych liczb to: " <<wynik_NWD<< endl;
 
-	cout<<std::boolalpha<<wynik3 << endl;
+	int wynik_silni = silnia(3);
+	cout << endl<<"Wynik silni wynosi:" << wynik_silni << endl;
 
+	float wynik_rownania_kwadratowego = miejsca_zerowe(1, 10, 9);
+	cout << endl<<wynik_rownania_kwadratowego << endl;
+
+	bool wynik_czy_trojkat_istnieje = czy_mozna_zbudowac_trojkat(6, 4, 9);
+	cout << std::boolalpha << "Trójk¹t o podanych danych istnieje:" << wynik_czy_trojkat_istnieje << endl;
+	
+	//std::cout.imbue(std::locale("pl"));
+	float wynik2 = licz_obwod(5.0);
+
+	float wynik = licz_pole(4.0);
 
 	system("Pause");
 

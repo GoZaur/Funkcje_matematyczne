@@ -1,8 +1,8 @@
 #include<iostream>
 #include<locale.h>
+
 using namespace std;
-//int a;
-//int b;
+
 int nwd(int a, int b) {
 	do {
 		if (a > b) {

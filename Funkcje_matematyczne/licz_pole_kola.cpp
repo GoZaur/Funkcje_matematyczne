@@ -12,6 +12,6 @@ float licz_pole( float r) {
 	}
 	else
 		
-		cout << "Pole ko³a wynisi: " << pi * pow(r, 2) << endl;
+		cout <<endl<< "Pole ko³a wynisi: " << pi * pow(r, 2) << endl;
 	return 0;
 }
