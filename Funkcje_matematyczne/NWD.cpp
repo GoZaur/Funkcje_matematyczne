@@ -16,6 +16,4 @@ int nwd(int a, int b) {
 	}
 	cout << "Najwiêkszy wspólny dzielnik to: " << a << endl;
 	return a;
-	//cout << "Najwiêkszy wspólny dzielnik to: " << a << endl;
-	//system("Pause");
 }

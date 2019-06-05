@@ -1,2 +1,2 @@
 #pragma once
-int silnia(int n);
+unsigned long long silnia(unsigned long long n);

@@ -1,2 +1,2 @@
 #pragma once
-float licz_pole( float r);
+float licz_pole();

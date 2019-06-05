@@ -3,9 +3,9 @@
 
 using namespace std;
 
-float miejsca_zerowe(float a, float b, float c) /*{ return 0; }*/{ //musialm zmienic na float. Potrzebowalam zmiennych tego samego typu co zmienna x0 linijka 12
-	float delta;
-	delta = (b*b) - (4 * a*c);
+float miejsca_zerowe(float a, float b, float c) { 
+
+	float delta = (b*b) - (4 * a*c);
 
 	if (delta == 0) {
 		float jedno_miejsce_zerowe;
