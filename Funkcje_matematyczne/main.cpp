@@ -1,29 +1,39 @@
 #include<iostream>
 #include "Czy_liczba_pierwsza.h"
-#include<locale.h>
 #include<cstdlib>
 #include"Silnia.h"
 #include"NWD.h"
 #include"Rownanie_kwadratowe.h"
 #include<math.h>
+#include"Czy_mozna_zbudowac_trojkat.h"
+#include"licz_pole_kola.h"
+#include"licz_obwod_kola.h"
+//#include<locale>
 
 using namespace std;
 
-int liczba;
 int main() {
 	setlocale(LC_CTYPE, "polish");
 
-	cout << "Witaj! Podaj liczbê, któr¹ chcesz sprawdziæ czy jest pierwsza: " << liczba << endl;
-	bool pierwsza = czy_liczba_pierwsza(7);
-	//cout<<"Podana liczba to: "<<
+	bool wynik3 = czy_liczba_pierwsza(4);
+	
+	int wynik_NWD=nwd(15, 15);
+	cout << endl<<"Najwiêkszy wspólny dzielnik dla podanych liczb to: " <<wynik_NWD<< endl;
 
-	nwd(12, 15);
-	cout << "Najwiêkszy wspólny dzielnik dla podanych liczb, to: " << endl;//tutaj muszê wczytaæ 
+	unsigned long long  wynik_silni = silnia(10);
+	cout << endl<<"Wynik silni wynosi:" << wynik_silni << endl;
 
-	silnia(3);
-	cout << "Silnia podanej liczby wynosi: " << endl;//wczytaæ
+	float wynik_rownania_kwadratowego = miejsca_zerowe(1, 10, 9);
+	cout << endl<<wynik_rownania_kwadratowego << endl;
 
-	miejsca_zerowe(a, b, c);
+	bool wynik_czy_trojkat_istnieje = czy_mozna_zbudowac_trojkat(31, 3, 3);
+	cout << std::boolalpha << endl<<"Trójk¹t o podanych danych istnieje:" << wynik_czy_trojkat_istnieje << endl;
+	
+	float wynik2 = licz_obwod();
+
+	float wynik = licz_pole();
+
+
 	system("Pause");
 
 }
