@@ -123,6 +123,7 @@
     <ClCompile Include="NWD.cpp" />
     <ClCompile Include="rowanie_kwadratowe.cpp" />
     <ClCompile Include="silnia.cpp" />
+    <ClCompile Include="Silnia2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Czy_liczba_pierwsza.h" />
@@ -132,6 +133,10 @@
     <ClInclude Include="NWD.h" />
     <ClInclude Include="Rownanie_kwadratowe.h" />
     <ClInclude Include="Silnia.h" />
+    <ClInclude Include="Silnia2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

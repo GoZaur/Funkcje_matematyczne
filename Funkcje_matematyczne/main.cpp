@@ -8,7 +8,7 @@
 #include"Czy_mozna_zbudowac_trojkat.h"
 #include"licz_pole_kola.h"
 #include"licz_obwod_kola.h"
-//#include<locale>
+#include"silnia2.h"
 
 using namespace std;
 
@@ -32,6 +32,9 @@ int main() {
 	float wynik2 = licz_obwod();
 
 	float wynik = licz_pole();
+
+	//unsigned long long wynik_silni2=silnia2(100);
+	//cout << endl << "Silnia2= " << wynik_silni2 << endl;
 
 
 	system("Pause");

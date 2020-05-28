@@ -1,0 +1,1 @@
+Aplikacja realizuj¹ca funkcje matematyczne.
